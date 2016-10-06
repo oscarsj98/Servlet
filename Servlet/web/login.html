@@ -1,0 +1,37 @@
+<html>
+    <style>
+        td{
+            text-align:center;
+            color: white;
+        }
+        h1
+        {
+            color: white;
+            text-align: center;
+            font-family: Courier New;
+
+        }
+        p{
+            color: white;
+            text-align: center;
+            font-family: Courier New;            
+        }
+    </style>
+    <body style="background-color: crimson">
+        <h1>Log-in</h1>
+        <!--<form method="GET" action='ServletLogin'>-->
+        <form method="POST" action='ServletLogin'>
+            <p>
+                User:
+                <br>
+                <input name="user" placeholder="Introduzca su nombre de usuario" style="width: 250px;" />
+                <br>
+                Password:
+                <br>
+                <input name="password" placeholder="Introduzca su password" />
+                <br><br>
+                <input type="submit" />
+            </p>
+        </form>
+    </body>
+</html>
